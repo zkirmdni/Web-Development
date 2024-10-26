@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to bottom, #000000, #000000); /* Sesuaikan warna sesuai kebutuhan */
+  }
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+}
+
+.carousel-caption h5 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.custom-card {
+    display: flex;
+    align-items: center; /* Agar gambar dan teks sejajar */
+  }
+
+  .custom-card img {
+    width: 100%; /* Agar gambar 100% lebar kolom */
+    max-width: 250px; /* Batas ukuran gambar */
+    height: auto;
+    margin-right: 20px;
+  }
+
+.juduldestinasi h5 {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+  .card-body {
+    flex: 1; /* Agar teks dapat mengisi sisa lebar kolom */
+  }
+
+.card {
+    width: 18rem; 
+    font-size: 14px; 
+}
+
+.card-img-top {
+    width: 100%; 
+    height: auto; 
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; 
+    margin-left: 30px;
+}
+.pembungkus-card {
+    background-color: #000000;
+}
